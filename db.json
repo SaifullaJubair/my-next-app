@@ -4,19 +4,19 @@
       "id": 1,
       "title": "Introduction to LensBD",
       "description": "LensBD is an innovative Eye Glasses Management Dashboard designed for efficient inventory management and sales tracking. With a user-friendly interface and advanced features, it simplifies the process of managing eye glasses.",
-      "likeCount": 15
+      "likeCount": 150
     },
     {
       "id": 2,
       "title": "Enhanced User Authentication",
       "description": "LensBD incorporates Firebase authentication for a secure and seamless login and registration process. User data is protected, ensuring a safe and reliable user experience.",
-      "likeCount": 8
+      "likeCount": 80
     },
     {
       "id": 3,
       "title": "Powerful Inventory Management",
       "description": "Effortlessly add, delete, and edit items in the inventory. The bulk delete and duplicate functionalities streamline operations, making LensBD a powerful tool for managing eye glasses inventory.",
-      "likeCount": 22
+      "likeCount": 222
     },
     {
       "id": 4,
