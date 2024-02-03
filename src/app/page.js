@@ -13,6 +13,9 @@ const HomePage = () => {
       <Link href="/contact">
         <button className="bg-blue-500 px-2 py-1 rounded my-2">Contact</button>
       </Link>
+      <Link href="/album">
+        <button className="bg-blue-500 px-2 py-1 rounded my-2">Album</button>
+      </Link>
     </div>
   );
 };
