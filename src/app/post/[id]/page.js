@@ -1,3 +1,20 @@
+export async function generateStaticParams() {
+  const res = await fetch("http://localhost:5000/posts");
+  const posts = await res.json();
+
+  const ids = posts.slice(0, 6).map((post) => {
+    return {
+      id: post.id.toString(),
+    };
+  });
+  console.log(ids);
+
+  // return posts.slice(0, 6).map((post) => ({
+  //   id: post.id + "",
+  // }));
+  return ids;
+}
+
 const PostDetailsPage = async ({ params }) => {
   const res = await fetch(`http://localhost:5000/posts/${params.id}`);
   const post = await res.json();
